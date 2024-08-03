@@ -9,8 +9,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{{ asset('admin/assets/plugins/fontawesome-free/css/all.min.css') }}">
-  <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="{{ asset('admin/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ asset('admin/assets/css/adminlte.min.css') }}">
   <!-- Toaster -->
@@ -59,22 +57,10 @@
 <script src="{{ asset('admin/assets/plugins/jquery/jquery.min.js') }}"></script>
 <!-- Bootstrap -->
 <script src="{{ asset('admin/assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<!-- overlayScrollbars -->
-<script src="{{ asset('admin/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
 <!-- App -->
 <script src="{{ asset('admin/assets/js/adminlte.js') }}"></script>
 
 <!-- PAGE PLUGINS -->
-<!-- jQuery Mapael -->
-<script src="{{ asset('admin/assets/plugins/jquery-mousewheel/jquery.mousewheel.js') }}"></script>
-<script src="{{ asset('admin/assets/plugins/raphael/raphael.min.js') }}"></script>
-<script src="{{ asset('admin/assets/plugins/jquery-mapael/jquery.mapael.min.js') }}"></script>
-<script src="{{ asset('admin/assets/plugins/jquery-mapael/maps/usa_states.min.js') }}"></script>
-<!-- ChartJS -->
-<script src="{{ asset('admin/assets/plugins/chart.js/Chart.min.js') }}"></script>
-
-<!-- for demo purposes -->
-<script src="{{ asset('admin/assets/js/demo.js') }}"></script>
 <!-- dashboard  -->
 <script src="{{ asset('admin/assets/js/pages/dashboard2.js') }}"></script>
 <!-- Toaster -->
@@ -87,7 +73,6 @@
 <script src="{{ asset('admin/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
 <script src="{{ asset('admin/assets/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
 <script src="{{ asset('admin/assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
-<script src="{{ asset('admin/assets/plugins/jszip/jszip.min.js') }}"></script>
 
 <!-- Sweetalert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
